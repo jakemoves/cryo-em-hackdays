@@ -21,3 +21,14 @@ My methodology as a coder usually goes proof of concept > prototype > production
 - mostly playing with Observable plots
 - swap canvas for rendered images in-place
 - note we can see on the graphs which circle parameters were drawn from a gaussian distribution and which weren't
+
+### Screenshots
+
+#### Session 1
+<img width="415" alt="Screenshot 2024-04-02 at 2 49 40 PM" src="https://github.com/jakemoves/cryo-em-hackdays/assets/4842862/a3c02ff5-849b-482c-a05b-6ac82be71952">
+
+#### Session 2
+<img width="609" alt="Screenshot 2024-04-02 at 2 49 48 PM" src="https://github.com/jakemoves/cryo-em-hackdays/assets/4842862/2806155d-cac0-4de2-b74a-37aa9d980b93">
+
+#### Session 3
+<img width="602" alt="Screenshot 2024-04-02 at 2 50 02 PM" src="https://github.com/jakemoves/cryo-em-hackdays/assets/4842862/98299fd7-f718-4d48-a9bc-d865ea5f437e">
