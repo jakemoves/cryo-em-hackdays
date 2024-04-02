@@ -1,38 +1,23 @@
-# create-svelte
+### About this repo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+I was excited to get back to Svelte and to explore some ideas that came up after looking at the tech challenge sample app.
 
-## Creating a project
+My methodology as a coder usually goes proof of concept > prototype > production. All this _very much_ belongs to the proof of concept stage!
 
-If you're seeing this, you've probably already done this step. Congrats!
+#### Session 1
+- how might a keyboard-friendly and accessible grid-select interface work?
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+#### Session 2
+- let's make some fake cryo-em images!
+- generated circles:
+  - random (circle radius) 
+  - gaussian random (x position, y position, transparency)
+  - inverse gaussian random (colour, to push it to very light or very dark values)
+  - noise (but it's lazy code and soooo slow)
+- render canvas to image and download it
+- super basic vanilla JS plot
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+#### Session 3
+- mostly playing with Observable plots
+- swap canvas for rendered images in-place
+- note we can see on the graphs which circle parameters were drawn from a gaussian distribution and which weren't
